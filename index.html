@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- css link  -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- accordion item start -->
+
+ <section class="accordian-practice">
+    <div class="container accordion-container">
+
+      <h1 class="text-center m-3">Accordion</h1>
+
+
+        <div class="row">
+          <div class="col-md-6 pt-5 ">
+            <h2 class="text-center mb-4">always open</h2>
+            <div class="accordion" id="accordian-full">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingone">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#openOne" aria-expanded="true" aria-controls="openOne">accordian item</button> 
+                </h2>
+          
+                <div class="accordion-collapse collapse show" id="openOne" aria-labelledby="headingone" data-bs-parent="accordian-full" >
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+          
+                </div>
+          
+              </div>
+              <!-- first item close  -->
+              
+                <div class="accordion-item">
+                  
+                    <h2 class="accordion-header" id="heading-two">
+                      <button class="accordion-button collapsed" type="button"
+                      data-bs-toggle="collapse" 
+                      data-bs-target="#opensec" aria-controls="opensec"
+                      aria-expanded="false">accordion sec</button>
+                    </h2>
+
+                    <div class="accordion-collapse collapse " id="opensec" aria-labelledby="heading-two" data-bs-parent="#accordian-full">
+                      <div class="accordion-body">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam minima culpa voluptatum dolorum. Nobis eligendi dolores unde eaque veniam ipsa quas voluptas illo dignissimos perferendis consequuntur ducimus voluptate laudantium ipsum, sapiente dolore explicabo. Placeat, quae. Distinctio ipsa earum soluta? Deleniti itaque vero eveniet sunt accusamus eius perferendis eaque, saepe quis!
+                      </div>
+                    </div>
+                  
+                </div>
+              
+              <!-- sec close  -->
+            
+                <div class="accordion-item">
+                  
+                    <h2 class="accordion-header" id="heading-three">
+                      <button class="accordion-button collapsed" type="button"
+                      data-bs-toggle="collapse" 
+                      data-bs-target="#openthird" aria-controls="openthird"
+                      aria-expanded="false">accordion sec</button>
+                    </h2>
+
+                    <div class="accordion-collapse collapse " id="openthird" aria-labelledby="heading-three" data-bs-parent="#accordian-full">
+                      <div class="accordion-body">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam minima culpa voluptatum dolorum. Nobis eligendi dolores unde eaque veniam ipsa quas voluptas illo dignissimos perferendis consequuntur ducimus voluptate laudantium ipsum, sapiente dolore explicabo. Placeat, quae. Distinctio ipsa earum soluta? Deleniti itaque vero eveniet sunt accusamus eius perferendis eaque, saepe quis!
+                      </div>
+                    </div>
+                  
+                </div>
+              
+              <!-- third close  -->
+              
+                <div class="accordion-item">
+                  
+                    <h2 class="accordion-header" id="heading-four">
+                      <button class="accordion-button collapsed" type="button"
+                      data-bs-toggle="collapse" 
+                      data-bs-target="#openfour" aria-controls="openfour"
+                      aria-expanded="false">accordion sec</button>
+                    </h2>
+
+                    <div class="accordion-collapse collapse " id="openfour" aria-labelledby="heading-four" data-bs-parent="#accordian-full">
+                      <div class="accordion-body">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam minima culpa voluptatum dolorum. Nobis eligendi dolores unde eaque veniam ipsa quas voluptas illo dignissimos perferendis consequuntur ducimus voluptate laudantium ipsum, sapiente dolore explicabo. Placeat, quae. Distinctio ipsa earum soluta? Deleniti itaque vero eveniet sunt accusamus eius perferendis eaque, saepe quis!
+                      </div>
+                    </div>
+                  
+              
+              </div>
+              <!-- fourth close  -->
+
+              
+            </div>
+          </div>
+          <!-- fist col close {alweys open}  -->
+          <!-- sec col start {flush} -->
+          <div class="col-md-6 pt-5  ">
+            <h2 class="text-center mb-4">Flush</h2>
+            <div class="accordion accordion-flush" id="flush-accordian-full">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingone">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-openOne" aria-expanded="flase" aria-controls="flush-openOne">accordian item</button> 
+                </h2>
+          
+                <div class="accordion-collapse collapse " id="flush-openOne" aria-labelledby="flush-headingone" data-bs-parent="#flush-accordian-full" >
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+          
+                </div>
+          
+              </div>
+              <!-- first item close  -->
+              
+                <div class="accordion-item">
+                  
+                    <h2 class="accordion-header" id="flush-heading-two">
+                      <button class="accordion-button collapsed" type="button"
+                      data-bs-toggle="collapse" 
+                      data-bs-target="#flush-opensec" aria-controls="flush-opensec"
+                      aria-expanded="false">accordion sec</button>
+                    </h2>
+
+                    <div class="accordion-collapse collapse " id="flush-opensec" aria-labelledby="flush-heading-two" data-bs-parent="#flush-accordian-full">
+                      <div class="accordion-body">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam minima culpa voluptatum dolorum. Nobis eligendi dolores unde eaque veniam ipsa quas voluptas illo dignissimos perferendis consequuntur ducimus voluptate laudantium ipsum, sapiente dolore explicabo. Placeat, quae. Distinctio ipsa earum soluta? Deleniti itaque vero eveniet sunt accusamus eius perferendis eaque, saepe quis!
+                      </div>
+                    </div>
+                  
+                </div>
+              
+              <!-- sec close  -->
+            
+                <div class="accordion-item">
+                  
+                    <h2 class="accordion-header" id="flush-heading-three">
+                      <button class="accordion-button collapsed" type="button"
+                      data-bs-toggle="collapse" 
+                      data-bs-target="#flush-openthird" aria-controls="flush-openthird"
+                      aria-expanded="false">accordion sec</button>
+                    </h2>
+
+                    <div class="accordion-collapse collapse " id="flush-openthird" aria-labelledby="flush-heading-three" data-bs-parent="#flush-accordian-full">
+                      <div class="accordion-body">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam minima culpa voluptatum dolorum. Nobis eligendi dolores unde eaque veniam ipsa quas voluptas illo dignissimos perferendis consequuntur ducimus voluptate laudantium ipsum, sapiente dolore explicabo. Placeat, quae. Distinctio ipsa earum soluta? Deleniti itaque vero eveniet sunt accusamus eius perferendis eaque, saepe quis!
+                      </div>
+                    </div>
+                  
+                </div>
+              
+              <!-- third close  -->
+              
+                <div class="accordion-item">
+                  
+                    <h2 class="accordion-header" id="flush-heading-four">
+                      <button class="accordion-button collapsed" type="button"
+                      data-bs-toggle="collapse" 
+                      data-bs-target="#flush-openfour" aria-controls="flush-openfour"
+                      aria-expanded="false">accordion sec</button>
+                    </h2>
+
+                    <div class="accordion-collapse collapse " id="flush-openfour" aria-labelledby="flush-heading-four" data-bs-parent="#flush-accordian-full">
+                      <div class="accordion-body">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam minima culpa voluptatum dolorum. Nobis eligendi dolores unde eaque veniam ipsa quas voluptas illo dignissimos perferendis consequuntur ducimus voluptate laudantium ipsum, sapiente dolore explicabo. Placeat, quae. Distinctio ipsa earum soluta? Deleniti itaque vero eveniet sunt accusamus eius perferendis eaque, saepe quis!
+                      </div>
+                    </div>
+                  
+              
+              </div>
+              <!-- fourth close  -->
+
+              
+            </div>
+          </div>
+        </div>
+    </div>
+</section>
+
+<!-- accordion item start -->
+
+<section class="alerts mt-5">
+  
+  <div class="container alert-container">
+
+    <h2 class="text-center m-5">alert</h2>
+    
+    <div class="row">
+
+      <div class="col-md-6">
+
+        <h2 class="text-center mb-3">link color</h2>
+
+        <div class="alert alert-primary" role="alert"> Lorem ipsum dolor sit amet consectetur adipisicing elit. <a href="#" class=" alert-link">Praesentium delectus fugiat in id corrupti odit</a> </div>
+      
+        <!-- primary color end  -->
+        <div class="alert alert-secondary" role="alert"> Lorem ipsum dolor sit amet consectetur adipisicing elit. <a href="#" class=" alert-link">Praesentium delectus fugiat in id corrupti odit</a> </div>
+      
+      <!--secondary color end  -->
+      <div class="alert alert-success" role="alert"> Lorem ipsum dolor sit amet consectetur adipisicing elit. <a href="#" class=" alert-link">Praesentium delectus fugiat in id corrupti odit</a> </div>
+      
+       <!--success color end  -->
+       <div class="alert alert-danger" role="alert"> Lorem ipsum dolor sit amet consectetur adipisicing elit. <a href="#" class=" alert-link">Praesentium delectus fugiat in id corrupti odit</a> </div>
+      
+      <!--danger color end  -->
+      <div class="alert alert-warning" role="alert"> Lorem ipsum dolor sit amet consectetur adipisicing elit. <a href="#" class=" alert-link">Praesentium delectus fugiat in id corrupti odit</a> </div>
+
+
+
+
+
+      </div>
+      <!-- link color end  -->
+      <!-- svg image start -->
+      <div class="col-md-6">
+
+        <h2 class="text-center mb-3">svg image</h2>
+
+          <!-- svg image list  start-->
+          <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+            <symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+            </symbol>
+            <symbol id="info-fill" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+            </symbol>
+            <symbol id="exclamation-triangle-fill" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+            </symbol>
+          </svg>
+          <!-- svg image list  end-->
+
+            <div class="alert alert-danger d-flex align-items-center alert-dismissible fade show" role="alert">
+              <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Danger:"><use xlink:href="#exclamation-triangle-fill"/></svg>
+              <div>
+                An example danger alert with an icon
+              </div>
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+
+            </div>
+            <!-- danger end  -->
+
+            <div class="alert alert-primary d-flex align-items-center alert-dismissible fade show" role="alert">
+              <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Info:"><use xlink:href="#info-fill"/></svg>
+              <div>
+                An example alert with an icon
+              </div>
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <!-- primary end  -->
+
+            <div class="alert alert-success d-flex align-items-center alert-dismissible fade show" role="alert">
+              <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Success:"><use xlink:href="#check-circle-fill"/></svg>
+              <div>
+                An example success alert with an icon
+              </div>
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <!-- success end  -->
+
+            <div class="alert alert-warning d-flex align-items-center alert-dismissible fade show" role="alert">
+              <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Warning:"><use xlink:href="#exclamation-triangle-fill"/></svg>
+              <div>
+                An example warning alert with an icon
+              </div>
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <!-- warning end  -->
+      </div>
+      <!-- svg image  end-->
+
+
+    
+    </div>
+
+    <div class="row mt-3 d-flex justify-content-center">
+      <div class="col-md-6 text-center ">
+        <div class="alert alert-info alert-dismissible fade show" role="alert">
+          <div class="alert-heading">
+            well done!
+          </div>
+          <hr>
+          <div class="alert-body">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam fuga odio nobis iusto repudiandae est autem aliquam beatae quibusdam dolorum.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam similique, fuga temporibus doloribus, quam saepe, dignissimos iusto quod itaque eveniet expedita! Assumenda doloremque modi quo soluta veritatis, laborum atque optio incidunt porro dolorum, autem consequatur nulla. Facere aspernatur temporibus enim tempora, similique explicabo, sunt dolores a, assumenda porro modi omnis?
+          </div>
+          <hr>
+          <button type="button" class="btn btn-success"><a href="#">check out more</a></button>
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="close"></button>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+  </div>
+</section>
+
+<!-- alert end  -->
+
+<!-- badge start  -->
+
+<section class="badge-practice m-5">
+  <div class="container badeg-container">
+    <h2 class="text-center m-3"> Badge</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <h2 class="text-center">heading </h2>
+        <h1>heading 1 <span class="badge bg-secondary">New</span></h1>
+        <h2>heading 2 <span class="badge bg-secondary">New</span></h2>
+        <h3>heading 3<span class="badge bg-secondary">New</span></h3>
+        <h4>heading 4<span class="badge bg-secondary">New</span></h4>
+        <h5>heading 5<span class="badge bg-secondary">New</span></h5>
+        <h6>heading 6<span class="badge bg-secondary">New</span></h6>
+      </div>
+      <!-- heading end  -->
+
+      <div class="col-md-4">
+        <h2 class="text-center">button </h2>
+
+        <button type="button" class="btn btn-primary"> new notification <span class="badge bg-secondary">50</span></button>
+      </div>
+      <!-- button end  -->
+
+      <div class="col-md-4">
+        <h2 class="text-center">position</h2>
+
+        <button type="button" class="btn btn-primary position-relative m-2"> new notification <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger ">50</span></button>
+
+        <button type="button" class="btn btn-primary position-relative m-2"> new notification <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-info">99+</span></button>
+
+        <button type="button" class="btn btn-primary position-relative m-2"> new notification <span class="position-absolute top-0 start-100 translate-middle p-2 bg-success border border-light rounded"></span></button>
+
+        <button type="button" class="btn btn-primary position-relative m-2"> new notification <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle"></span></button>
+
+      </div>
+      <!-- position end  -->
+
+    </div>
+  </div>
+</section>
+
+<!-- badge end  -->
+
+<!-- breadcrumb  start-->
+<section class="bredcrumb-practice m-5">
+  <div class="container bc-con">
+    <h2 class="text-center m-3">breadcrumb</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page">Home</li>
+          </ol>
+        </nav><!-- home  -->
+
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item " aria-current="page">Home</li>
+            <li class="breadcrumb-item active" aria-current="page">servics</li>
+            <li class="breadcrumb-item " aria-current="page">about</li>
+          </ol>
+        </nav><!-- home servics(active) about  -->
+
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item " aria-current="page">Home</li>
+            <li class="breadcrumb-item " aria-current="page">servics</li>
+            <li class="breadcrumb-item " aria-current="page">about</li>
+            <li class="breadcrumb-item active" aria-current="page">protfolio</li>
+            <li class="breadcrumb-item " aria-current="page">video</li>
+          </ol>
+        </nav><!-- home servics about  -->
+        
+      </div>
+      <!-- list breadcrumb end -->
+      <div class="col-md-6">
+
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Library</li>
+          </ol>
+        </nav>
+
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a href="#">Library</a></li>
+          </ol>
+        </nav>
+
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Library</li>
+            <li class="breadcrumb-item " aria-current="page"><a href="#">Library</a></li>
+          </ol>
+        </nav>
+
+        
+
+     
+
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- breadcrumb end -->
+
+
+
+
+
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
